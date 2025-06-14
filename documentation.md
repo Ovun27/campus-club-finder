@@ -28,7 +28,7 @@ npm run dev
 🏠 Home (/)
 - Welcome message
 - CTA menuju halaman daftar klub
-![alt text](image.png)
+
 
 📋 Club List (/clubs)
 - Menampilkan seluruh klub
@@ -36,9 +36,9 @@ npm run dev
 - Toggle view: Grid & List
 - Tombol "View Details"
 
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
+![Grid View](./screenshoot/image-1.png)
+![List View](./screenshoot/image-2.png)
+![orting Z-A](./screenshoot/image-3.png)
 
 🔍 Club Detail (/clubs/:clubId)
 - Gambar besar
@@ -46,21 +46,22 @@ npm run dev
 - Daftar event
 - Tombol “Join Club”
 - Jika sudah join → muncul tulisan “You have joined this club!”
-![alt text](image-4.png)
-![alt text](image-5.png)
+![Sebelum Join](./screenshoot/image-4.png)
+![Sesudah Join](./screenshoot/image-5.png)
 
 ℹ️ About (/about)
 Penjelasan singkat aplikasi & tech stack
-![alt text](image-6.png)
+![about page](./screenshoot/image-6.png)
 
 🚫 404 Not Found (*)
 Halaman muncul jika URL tidak ditemukan
-![alt text](image-7.png)
+![not found page](./screenshoot/image-7.png)
 
 💾 Penyimpanan Lokal
 Data klub yang di-join disimpan di localStorage:
+```bash
 localStorage.getItem('joinedClubs')
-
+```
 👤 Dibuat Oleh
 Nama: Colliens Edward
 NIM: 2540130296
