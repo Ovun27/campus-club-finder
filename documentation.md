@@ -19,8 +19,12 @@ Campus Club Finder adalah aplikasi web berbasis React + Vite + Tailwind yang mem
 ```bash
 npm install
 npm run dev
+```
 
-📑 Struktur Halaman
+---
+
+
+## 📑 Struktur Halaman
 🏠 Home (/)
 - Welcome message
 - CTA menuju halaman daftar klub
